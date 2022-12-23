@@ -13,8 +13,7 @@ class _LandingScreenState extends State<LandingScreen> {
   static final List<Widget> _pages = <Widget>[
     const HomeScreen(),
     const HomeScreen(),
-    //todo #0 Make profile page and call here
-    // const ProfileScreen(),
+    const ProfileScreen(),
   ];
 
   int _selectedItemIndex = 0;
