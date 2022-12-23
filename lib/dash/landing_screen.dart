@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notesapp/dash/pages/HomeScreem.dart';
+import 'package:notesapp/dash/pages/ProfileScreen.dart';
 
 class LandingScreen extends StatefulWidget {
   const LandingScreen({Key? key}) : super(key: key);
@@ -12,7 +13,8 @@ class _LandingScreenState extends State<LandingScreen> {
   static final List<Widget> _pages = <Widget>[
     const HomeScreen(),
     const HomeScreen(),
-    const HomeScreen(),
+    //todo #0 Make profile page and call here
+    // const ProfileScreen(),
   ];
 
   int _selectedItemIndex = 0;

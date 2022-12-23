@@ -14,3 +14,28 @@ A new project using Flutter
 - use Scaffold always while making a new screen
 - gap library added
 - enables assets/images
+
+## Helper codes
+
+```dart
+class ProfileCard extends StatelessWidget {
+  final String name;
+
+  const ProfileCard({Key? key, required this.name}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Container(
+        height: 150,
+
+        width: double.infinity,
+        child: Center(
+          child: Text(name),
+        ),
+      ),
+    );
+  }
+}
+
+```
