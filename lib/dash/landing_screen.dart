@@ -14,7 +14,7 @@ class _LandingScreenState extends State<LandingScreen> {
     const HomeScreen(),
     const HomeScreen(),
     //todo #0 Make profile page and call here
-    // const ProfileScreen(),
+     const ProfileScreen(),
   ];
 
   int _selectedItemIndex = 0;
