@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:notesapp/auth/login_screen.dart';
 
+//todo 0 initialize firebase here with async method
 void main() {
   runApp(const MyApp());
 }

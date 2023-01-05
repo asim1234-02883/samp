@@ -7,8 +7,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //todo #1 use safe area
-      //todo #2 use padding horizontal = 10 around safe area
+
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -26,7 +25,7 @@ class ProfileScreen extends StatelessWidget {
                 ],
               ),
               const Gap(10),
-              //todo #4 use card object here
+
               const ProfileCard(name: "Kushagra", cardColor: Colors.blue, dob: "12/12/1996"),
               const ProfileCard(name: "Saurav", cardColor: Colors.red, dob: "21/11/1995"),
             ]),
@@ -37,7 +36,7 @@ class ProfileScreen extends StatelessWidget {
   }
 }
 
-//todo #3 Make a ProfileCard stateless class
+
 class ProfileCard extends StatelessWidget {
   final String name;
   final String dob;

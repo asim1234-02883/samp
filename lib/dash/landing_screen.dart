@@ -14,7 +14,6 @@ class _LandingScreenState extends State<LandingScreen> {
   static final List<Widget> _pages = <Widget>[
     const HomeScreen(),
     const NotesScreen(),
-    //todo #0 Make profile page and call here
      const ProfileScreen(),
   ];
 
