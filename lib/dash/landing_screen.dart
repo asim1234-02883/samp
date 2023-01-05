@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notesapp/dash/pages/HomeScreem.dart';
+import 'package:notesapp/dash/pages/NotesScreen.dart';
 import 'package:notesapp/dash/pages/ProfileScreen.dart';
 
 class LandingScreen extends StatefulWidget {
@@ -12,7 +13,7 @@ class LandingScreen extends StatefulWidget {
 class _LandingScreenState extends State<LandingScreen> {
   static final List<Widget> _pages = <Widget>[
     const HomeScreen(),
-    const HomeScreen(),
+    const NotesScreen(),
     //todo #0 Make profile page and call here
      const ProfileScreen(),
   ];
